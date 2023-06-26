@@ -9,7 +9,7 @@ import gymnasium as gym
 
 class HighDimensionalDiabolicalCombinationLock(gym.Env):
     """Note: Hadamard rotation done as a part of preprocessor (not here)
-    for speedup"""
+    for speedup, see utils/format.py"""
     def __init__(self, horizon, noise_sigma,
                  n_actions=10, final_reward=10, seed=0, noise_seed=0):
 
