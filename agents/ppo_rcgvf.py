@@ -44,7 +44,6 @@ class PPOWithRCGVF(PPOAlgoWithIR):
     def compute_intrinsic_rewards(self, preprocessed_obs):
         """
         Computes the intrinsic rewards for the given observations using RCGVF
-        Shape of predicted values:  (n_heads, num_frames_per_proc, num_procs, num_cumulants)
         """
         all_obs = [self.obss[i][j]
                     for i in range(self.num_frames_per_proc)
