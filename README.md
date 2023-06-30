@@ -25,7 +25,7 @@ export WANDB_MODE=disabled
 ## Dependencies
 
 - gymnasium==0.26.3
-- torch-ac
+- [torch-ac](https://github.com/lcswillems/torch-ac/tree/master)
 - numpy
 - torch
 - scipy
